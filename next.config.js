@@ -65,6 +65,8 @@ module.exports = () => {
     eslint: {
       dirs: ['app', 'components', 'layouts', 'scripts'],
     },
+    // add output: export for static hosting
+    output: 'export',
     images: {
       remotePatterns: [
         {
@@ -72,15 +74,18 @@ module.exports = () => {
           hostname: 'picsum.photos',
         },
       ],
+      // add unoptimized: true for static hosting
+      unoptimized: true,
     },
-    async headers() {
-      return [
-        {
-          source: '/(.*)',
-          headers: securityHeaders,
-        },
-      ]
-    },
+    // comment out headers for static hosting
+    //async headers() {
+    //  return [
+    //    {
+    //      source: '/(.*)',
+    //      headers: securityHeaders,
+    //    },
+    //  ]
+    //},
     webpack: (config, options) => {
       config.module.rules.push({
         test: /\.svg$/,

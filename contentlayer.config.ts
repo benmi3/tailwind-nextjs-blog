@@ -78,6 +78,7 @@ function createSearchIndex(allBlogs: MDXDocumentDate[] | Blog[]) {
   }
 }
 
+// @ts-ignore
 export const Blog = defineDocumentType(() => ({
   name: 'Blog',
   filePathPattern: 'blog/**/*.mdx',

@@ -2,7 +2,7 @@ import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
-import NewsletterForm from 'pliny/ui/NewsletterForm'
+//import NewsletterForm from 'pliny/ui/NewsletterForm'
 
 const MAX_DISPLAY = 5
 
@@ -76,8 +76,9 @@ export default function Home({ posts }) {
                       </div>
                     </article>
                   </li>
-              )
-          })}
+                )
+              }
+            )}
         </ul>
       </div>
       {posts.length > MAX_DISPLAY && (
@@ -91,11 +92,19 @@ export default function Home({ posts }) {
           </Link>
         </div>
       )}
-      {siteMetadata.newsletter?.provider && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
-        </div>
-      )}
     </>
   )
 }
+
+// add this later, when you have implemented the mail subscription in your own way.
+// the main thing is that I want to build my own newsletter app
+//function mail_subscribe() {
+//  return ({
+//    siteMetadata.newsletter?.provider && (
+//      <div className="flex items-center justify-center pt-4">
+//        <NewsletterForm />
+//      </div>
+//    )
+//  })
+//}
+//

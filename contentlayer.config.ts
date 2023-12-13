@@ -84,6 +84,7 @@ export const Blog = defineDocumentType(() => ({
   filePathPattern: 'blog/**/*.mdx',
   contentType: 'mdx',
   fields: {
+    author: { type: 'string' },
     title: { type: 'string', required: true },
     date: { type: 'date', required: true },
     tags: { type: 'list', of: { type: 'string' }, default: [] },
@@ -127,6 +128,10 @@ export const Authors = defineDocumentType(() => ({
     twitter: { type: 'string' },
     linkedin: { type: 'string' },
     github: { type: 'string' },
+    gitlab: { type: 'string' },
+    mastodon: { type: 'string' },
+    youtube: { type: 'string' },
+    twitch: { type: 'string' },
     layout: { type: 'string' },
   },
   computedFields,

@@ -1,0 +1,3 @@
+[submodule "tailwind-nextjs-blog-output"]
+	path = tailwind-nextjs-blog-output
+	url = https://git.benmi.me/benmi/tailwind-nextjs-blog-output.git

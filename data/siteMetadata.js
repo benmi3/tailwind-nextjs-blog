@@ -3,7 +3,7 @@ const siteMetadata = {
   title: 'Benmi | Blog',
   author: 'Benjamin Jørgensen ',
   headerTitle: 'My corner in the web.',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: 'Hi, Im benmi, and this is where I write things about tech and software related things',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.benmi.me/',

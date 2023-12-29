@@ -43,8 +43,7 @@ const Header = () => {
       </div>
       <script
         async
-        src="https://eu.umami.is/script.js"
-        data-website-id="3aaa1e5f-109f-4bdb-95c9-30793a42c544"
+        src="/static/scripts/telemetry.js"
       ></script>
       <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png" />

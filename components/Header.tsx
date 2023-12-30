@@ -5,6 +5,7 @@ import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import SearchButton from './SearchButton'
+import GetMatomoScript from './Telemetry'
 
 const Header = () => {
   return (
@@ -15,13 +16,9 @@ const Header = () => {
             <div className="mr-3">
               <Logo />
             </div>
-            {typeof siteMetadata.headerTitle === 'string' ? (
-              <div className="hidden h-6 text-2xl font-semibold sm:block">
-                {siteMetadata.headerTitle}
-              </div>
-            ) : (
-              siteMetadata.headerTitle
-            )}
+            <div className="hidden h-6 text-2xl font-semibold sm:block">
+              {siteMetadata.headerTitle}
+            </div>
           </div>
         </Link>
       </div>
@@ -41,7 +38,7 @@ const Header = () => {
         <ThemeSwitch />
         <MobileNav />
       </div>
-      <script async src="/static/scripts/telemetry.js"></script>
+      <GetMatomoScript />
       <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png" />

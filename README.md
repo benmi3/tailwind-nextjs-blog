@@ -117,7 +117,6 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 - 3 different blog layouts
 - 2 different blog listing layouts
 - Support for nested routing of blog posts
-- Projects page
 - Preconfigured security headers
 - SEO friendly with RSS feed, sitemaps and more!
 
@@ -274,4 +273,4 @@ Using the template? Support this effort by giving a star on GitHub, sharing your
 
 ## Licence
 
-[MIT](https://github.com/timlrx/tailwind-nextjs-starter-blog/blob/main/LICENSE) © [Timothy Lin](https://www.timlrx.com)
+[MIT](./LICENSE) 

@@ -95,15 +95,3 @@ export default function Home({ posts }) {
   )
 }
 
-// add this later, when you have implemented the mail subscription in your own way.
-// the main thing is that I want to build my own newsletter app
-//function mail_subscribe() {
-//  return ({
-//    siteMetadata.newsletter?.provider && (
-//      <div className="flex items-center justify-center pt-4">
-//        <NewsletterForm />
-//      </div>
-//    )
-//  })
-//}
-//

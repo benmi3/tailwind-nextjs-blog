@@ -46,3 +46,6 @@ yarn-error.log*
 
 # Contentlayer
 .contentlayer
+
+# Bun lock file 
+bun.lockb

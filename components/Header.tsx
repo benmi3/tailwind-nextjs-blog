@@ -4,8 +4,6 @@ import Logo from '@/data/logo.svg'
 import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
-import SearchButton from './SearchButton'
-import GetMatomoScript from './Telemetry'
 
 const Header = () => {
   return (
@@ -34,11 +32,9 @@ const Header = () => {
               {link.title}
             </Link>
           ))}
-        <SearchButton />
         <ThemeSwitch />
         <MobileNav />
       </div>
-      <GetMatomoScript />
       <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png" />

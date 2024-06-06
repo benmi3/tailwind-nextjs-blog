@@ -54,7 +54,8 @@
     ".contentlayer/generated",
     ".contentlayer/generated/**/*.json",
     ".next/types/**/*.ts",
-    "tailwind-nextjs-blog-output/types/**/*.ts"
+    "./output/types/**/*.ts",
+    "output/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

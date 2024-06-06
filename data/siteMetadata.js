@@ -20,12 +20,6 @@ const siteMetadata = {
   youtube: 'https://youtube.com/@benmi3/',
   linkedin: 'https://www.linkedin.com/in/benjaminj0rgensen/',
   locale: 'en-US',
-  search: {
-    provider: 'kbar', // kbar or algolia
-    kbarConfig: {
-      searchDocumentsPath: 'search.json', // path to load documents to search
-    }
-  },
 }
 
 module.exports = siteMetadata

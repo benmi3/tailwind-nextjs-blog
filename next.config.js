@@ -65,7 +65,7 @@ module.exports = () => {
     eslint: {
       dirs: ['app', 'components', 'layouts', 'scripts'],
     },
-    distDir: 'tailwind-nextjs-blog-output',
+    distDir: 'output',
     // add output: export for static hosting
     output: 'export',
     images: {

@@ -10,11 +10,11 @@
     "dist": "./output",
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir app --dir components --dir lib --dir layouts --dir scripts"
-  },
-  "dependencies": {
+  },"dependencies": {
     "@next/bundle-analyzer": "^14.0.3",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.13",
+    "assert": "^2.1.0",
     "autoprefixer": "^10.4.19",
     "contentlayer": "^0.3.4",
     "esbuild": "0.18.11",
@@ -26,6 +26,7 @@
     "next-themes": "^0.2.1",
     "pliny": "^0.1.6",
     "postcss": "^8.4.38",
+    "punycode": "^2.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "reading-time": "^1.5.0",
@@ -39,7 +40,8 @@
     "remark-gfm": "^3.0.1",
     "remark-math": "^5.1.1",
     "tailwindcss": "^3.4.4",
-    "unist-util-visit": "^4.1.2"
+    "unist-util-visit": "^4.1.2",
+    "userland": "^0.4.1"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
@@ -57,7 +59,8 @@
     "prettier": "^3.3.1",
     "prettier-plugin-tailwindcss": "^0.4.1",
     "typescript": "^5.4.5"
-  },
+
+    },
   "resolutions": {
     "@opentelemetry/api": "1.4.1",
     "@opentelemetry/core": "1.13.0",

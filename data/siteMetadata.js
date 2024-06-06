@@ -13,7 +13,6 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://pl.inu.is/benmi',
   email: 'me@benmi.me/',
-  gitea: 'https://git.benmi.me/',
   github: 'https://github.com/benmi3/',
   gitlab: 'https://gitlab.com/benmi/',
   twitter: 'https://twitter.com/the_benmi/',
